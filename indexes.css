@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-conatiner {
+    background-color: #eb718f;
+    min-height: 200vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.person {
+    font-size: 50px;
+    color: #1c1954;
+}
+
+.user-card {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.profile-card {
+    width: 15%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.profile-name {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+}
+
+.profile-details-card {
+    width: 38%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: 4px solid #1c1954;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+}
+
+.proflie-name {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.designation {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-description-card {
+    width: 45%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+}
+
+.work-details {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.address-details {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.work-card {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.work-profile-card {
+    width: 15%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.work-details-card {
+    width: 25%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.work-year {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.work-description-card {
+    width: 60%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.work-type {
+    width: 100%;
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.work-description {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+.skill-card {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.skill-profile-card {
+    width: 15%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.skill-details-card {
+    width: 40%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #1c1954;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ranking {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #1c1954;
+    margin-right: 3px;
+}
+
+.skill {
+    width: 100%;
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.skill-description-card {
+    width: 50%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+}
+
+.skill-award {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.year {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.skill-description {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.intrests-card {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.intrest-profile-card {
+    width: 15%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inrest-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.intrest-details-card {
+    width: 85%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons-card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.inrest-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.education-card {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.education-profile-card {
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-para {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.education-details-card {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.education-year {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 28px 0px;
+}
+
+.education-description-card {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 4px solid #1c1954;
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.college-name {
+    width: 100%;
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.college-department {
+    font-family: "Roboto";
+    color: #1c1954;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+@media (max-width:767px) {
+
+    .profile-name {
+        font-size: 20px;
+    }
+
+    .designation {
+        font-size: 12px;
+    }
+
+    .work-details {
+        font-size: 12px;
+    }
+
+    .address-details {
+        font-size: 12px;
+    }
+
+
+    .work-year {
+        font-size: 13px;
+    }
+
+    .work-type {
+        font-size: 13px;
+    }
+
+    .work-description {
+        font-size: 12px;
+    }
+
+
+    .box {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ranking {
+        width: 8px;
+        height: 8px;
+    }
+
+    .skill {
+        font-size: 13px;
+    }
+
+    .skill-award {
+        font-size: 13px;
+    }
+
+    .year {
+        font-size: 13px;
+    }
+
+    .skill-description {
+        font-size: 12px;
+    }
+
+    .inrest-para {
+        font-size: 12px;
+    }
+
+
+
+    .eduaction-image {
+        width: 60px;
+        height: 50px;
+    }
+
+    .education-year {
+        font-size: 13px;
+    }
+
+    .college-name {
+        font-size: 13px;
+    }
+
+    .college-department {
+        font-size: 12px;
+    }
+}
